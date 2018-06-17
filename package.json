@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-blog",
+  "version": "1.0.0",
+  "description": "Simple Blog",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Assessor/NodeJs-Blog.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Ivan Maltsev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Assessor/NodeJs-Blog/issues"
+  },
+  "homepage": "https://github.com/Assessor/NodeJs-Blog#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
